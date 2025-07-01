@@ -64,8 +64,8 @@ python script.py
 
 | Original Image | Processed Image |
 |----------------|-----------------|
-| ![Input](assets/input-horizontal.jpg) | ![Output](assets/output-horizontal.jpg) |
-| ![Input](assets/input-vertical.jpg) | ![Output](assets/output-vertical.jpg) |
+| ![Input](assets/input-landscape.jpg) | ![Output](assets/output-landscape.jpg) |
+| ![Input](assets/input-portrait.jpg) | ![Output](assets/output-portrait.jpg) |
 
 ## 🔧 Customization
 
