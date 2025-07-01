@@ -60,6 +60,8 @@ image-resizer-watermarker/
 python3 script.py
 ```
 
+### Demo Video (YouTube)
+
 [![Watch the video](https://img.youtube.com/vi/PdnB78GIKKg/hqdefault.jpg)](https://youtu.be/PdnB78GIKKg)
 
 ## 🖼️ Example Input & Output
