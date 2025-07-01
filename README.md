@@ -49,8 +49,8 @@ image-resizer-watermarker/
 │   ├── input-portrait.jpg
 │   ├── output-landscape.jpg
 │   └── output-portrait.jpg
-├── watermark-1600.png             # For landscape images
-├── watermark-1200.png             # For portrait images
+├── landscape-watermark.png        # For landscape images
+├── vertical-watermark.png         # For portrait images
 └── script.py                      # The main Python script
 ```
 
