@@ -60,6 +60,8 @@ image-resizer-watermarker/
 python3 script.py
 ```
 
+[![Watch the video](https://img.youtube.com/vi/PdnB78GIKKg/hqdefault.jpg)](https://youtu.be/PdnB78GIKKg)
+
 ## 🖼️ Example Input & Output
 
 | Original Image | Processed Image |
@@ -74,7 +76,6 @@ You can modify script.py to:
 - Change watermark position or bottom offset
 - Adjust output quality (quality=70)
 - Add support for other formats (e.g., WebP)
-- Skip resizing or watermark conditionally
 
 ## 📜 License
 
