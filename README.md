@@ -45,10 +45,10 @@ image-resizer-watermarker/
 ├── input-images/                  # Put your original images here (.jpg/.png)
 ├── output/                        # Script will save results here
 ├── assets/                        # Sample preview images for README
-│   ├── input-horizontal.jpg
-│   ├── input-vertical.jpg
-│   ├── output-horizontal.jpg
-│   └── output-vertical.jpg
+│   ├── input-landscape.jpg
+│   ├── input-portrait.jpg
+│   ├── output-landscape.jpg
+│   └── output-portrait.jpg
 ├── watermark-1600.png             # For landscape images
 ├── watermark-1200.png             # For portrait images
 └── script.py                      # The main Python script
