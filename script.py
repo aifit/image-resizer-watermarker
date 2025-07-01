@@ -9,8 +9,8 @@ FIXED_QUALITY = 70                # JPEG output quality
 BOTTOM_OFFSET = 105               # Watermark distance from bottom
 
 # --- Load watermark images (with transparency preserved) ---
-wm_landscape = Image.open("horizontal-watermark.png").convert("RGBA")
-wm_portrait = Image.open("vertical-watermark.png").convert("RGBA")
+wm_landscape = Image.open("landscape-watermark.png").convert("RGBA")
+wm_portrait = Image.open("portrait-watermark.png").convert("RGBA")
 
 # --- Prepare output folder ---
 if not os.path.exists(OUTPUT_FOLDER):
