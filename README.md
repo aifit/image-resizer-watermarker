@@ -57,7 +57,7 @@ image-resizer-watermarker/
 ## ▶️ How to Run
 
 ```
-python script.py
+python3 script.py
 ```
 
 ## 🖼️ Example Input & Output
