@@ -27,7 +27,21 @@ Simple Python script to batch resize images and add a watermark automatically.
 - Python **3.8+**
 - [`Pillow`](https://pypi.org/project/Pillow/) (for image processing)
 
-### 🧰 (Mac/Linux) Setup Virtual Environment *(Recommended)*
+### 🧰 Setup with Nix *(Recommended)*
+
+If you have [Nix](https://nixos.org/) installed:
+
+```bash
+# Enter the Nix shell environment (automatically installs Python + Pillow)
+nix-shell
+
+# You're ready to go! Run the script:
+python script.py
+```
+
+The `shell.nix` file ensures a reproducible environment with all dependencies included.
+
+### 🧰 Alternative: Virtual Environment (Mac/Linux)
 
 ```bash
 # Create virtual environment
@@ -38,31 +52,48 @@ source venv/bin/activate
 pip install pillow
 ```
 
+---
+
 ## 📂 Folder Structure
 
 ```
 image-resizer-watermarker/
-├── input-images/                  # Put your original images here (.jpg/.png)
-├── output/                        # Script will save results here
-├── assets/                        # Sample preview images for README
+├── input-images/              # Put your original images here (.jpg/.png)
+├── output/                    # Script will save results here
+├── assets/                    # Sample preview images for README
 │   ├── input-landscape.jpg
 │   ├── input-portrait.jpg
 │   ├── output-landscape.jpg
 │   └── output-portrait.jpg
-├── landscape-watermark.png        # For landscape images
-├── portrait-watermark.png         # For portrait images
-└── script.py                      # The main Python script
+├── landscape-watermark.png    # For landscape images
+├── portrait-watermark.png     # For portrait images
+├── shell.nix                  # Nix environment configuration
+└── script.py                  # The main Python script
 ```
+
+---
 
 ## ▶️ How to Run
 
+**With Nix:**
+```bash
+nix-shell
+python script.py
 ```
+
+**With venv:**
+```bash
+source venv/bin/activate
 python3 script.py
 ```
+
+---
 
 ## 🎬 Demo Video (YouTube)
 
 [![Watch the video](https://img.youtube.com/vi/PdnB78GIKKg/hqdefault.jpg)](https://youtu.be/PdnB78GIKKg)
+
+---
 
 ## 🖼️ Example Input & Output
 
@@ -71,13 +102,16 @@ python3 script.py
 | ![Input](assets/input-landscape.jpg) | ![Output](assets/output-landscape.jpg) |
 | ![Input](assets/input-portrait.jpg) | ![Output](assets/output-portrait.jpg) |
 
+---
+
 ## 🔧 Customization
 
-You can modify script.py to:
-
+You can modify `script.py` to:
 - Change watermark position or bottom offset
 - Adjust output quality (quality=70)
 - Add support for other formats (e.g., WebP)
+
+---
 
 ## 📜 License
 
